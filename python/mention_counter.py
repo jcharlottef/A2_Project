@@ -5,19 +5,30 @@ import sys
 #read data from STDIN and split on each newline
 data = sys.stdin.read().splitlines()
 
-Trump_mention = 0
+
+# use python's csv library to create a csv reader and a writer
+reader = csv.DictReader(data)
+
+mention = 0
+word = "elections"
 
 
 # loop through tweets and count number of mentions
 for row in reader:
 	# filter rows
-    if "Trump" in row['tweet_text']:
+    if word in row['tweet_text']:
     	# write rows that match above filter
-       Trump_mention = Trump_mention + 1 
+      mention = mention + 1 
 
 
 linecount = 29943
 
-percent_Trump_mention =  Trump_mention / linecount
+percent_mention =  (mention / linecount) * 100
 
-print(percent_Trump_mention)
+print(word) 
+print(" is mentioned in ")
+print(percent_mention) 
+print(" percent of tweets")
+print (" ")
+
+
