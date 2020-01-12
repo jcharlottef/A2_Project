@@ -3,10 +3,10 @@ import csv
 import sys
 import pandas as pd
 # define columns to keep
-include_columns = ['userid', 'account_creation_date']
+include_columns = ['userid', 'account_creation_date' , 'follower_count' , 'following_count', 'account_language']
 # load the data into pandas
 df = pd.read_csv(sys.stdin)
-#df = df[[x for x in df.columns if x in include_columns]]
+df = df[[x for x in df.columns if x in include_columns]]
 # drop duplicates
 df = df.drop_duplicates()
 # output the file
