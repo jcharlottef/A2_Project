@@ -1,0 +1,40 @@
+Hillary
+ is mentioned in 
+1.5262331763684334
+ percent of tweets
+
+ Trump
+ is mentioned in 
+5.493771499181778
+ percent of tweets
+ 
+vote
+ is mentioned in 
+0.838259359449621
+ percent of tweets
+ 
+midterms
+ is mentioned in 
+0.0
+ percent of tweets
+ 
+election
+ is mentioned in 
+0.36068530207394045
+ percent of tweets
+ 
+gay
+ is mentioned in 
+0.19704104465150452
+ percent of tweets
+ 
+LGBT
+ is mentioned in 
+0.08349196807267141
+ percent of tweets
+ 
+elections
+ is mentioned in 
+0.0534348595665097
+ percent of tweets
+ 
