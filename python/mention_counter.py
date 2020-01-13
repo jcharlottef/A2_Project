@@ -10,13 +10,14 @@ data = sys.stdin.read().splitlines()
 reader = csv.DictReader(data)
 
 mention = 0
-word = "elections"
+word = "harris"
+
 
 
 # loop through tweets and count number of mentions
 for row in reader:
 	# filter rows
-    if word in row['tweet_text']:
+    if word in row['tweet_text'].lower():
     	# write rows that match above filter
       mention = mention + 1 
 

@@ -1,40 +1,60 @@
-Hillary
+trump
  is mentioned in 
-1.5262331763684334
- percent of tweets
-
- Trump
- is mentioned in 
-5.493771499181778
+5.7475870821227
  percent of tweets
  
-vote
+hillary
  is mentioned in 
-0.838259359449621
+1.559629963597502
  percent of tweets
  
-midterms
+obama
+ is mentioned in 
+2.397889323047123
+ percent of tweets
+ 
+biden
+ is mentioned in 
+0.08015228934976455
+ percent of tweets
+ 
+biden
+ is mentioned in 
+0.08015228934976455
+ percent of tweets
+ 
+warren
+ is mentioned in 
+0.06679357445813713
+ percent of tweets
+ 
+pence
+ is mentioned in 
+0.18702200848278394
+ percent of tweets
+ 
+bernie
+ is mentioned in 
+0.30057108506161706
+ percent of tweets
+ 
+sanders
+ is mentioned in 
+0.3306281935677788
+ percent of tweets
+ 
+buttigieg
  is mentioned in 
 0.0
  percent of tweets
  
-election
+kamala
  is mentioned in 
-0.36068530207394045
+0.013358714891627425
  percent of tweets
  
-gay
+harris
  is mentioned in 
-0.19704104465150452
- percent of tweets
- 
-LGBT
- is mentioned in 
-0.08349196807267141
- percent of tweets
- 
-elections
- is mentioned in 
-0.0534348595665097
+0.13358714891627427
  percent of tweets
  
