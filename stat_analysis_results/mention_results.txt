@@ -58,3 +58,23 @@ harris
 0.13358714891627427
  percent of tweets
  
+clinton
+ is mentioned in 
+0.0
+ percent of tweets
+ 
+clinton
+ is mentioned in 
+1.2724175934275124
+ percent of tweets
+ 
+clinton
+ is mentioned in 
+1.2724175934275124
+ percent of tweets
+ 
+hillary clinton
+ is mentioned in 
+0.3473265871823131
+ percent of tweets
+ 
