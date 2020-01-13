@@ -10,7 +10,7 @@ data = sys.stdin.read().splitlines()
 reader = csv.DictReader(data)
 
 mention = 0
-word = "harris"
+word = "hillary clinton"
 
 
 
