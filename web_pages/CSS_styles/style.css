@@ -1,5 +1,6 @@
 body {
   background-color: #EEE2DC;
+
 }
 
 h1 {
@@ -8,33 +9,34 @@ h1 {
 }
 
 h2,h3 {
-  color: black;
+  color: #AC3B61;
   text-align: left;
 }
 
 p {
   color: black;
   font-family: Crimson Text;
-  font-size: 18px;
 }
 
 /* Add a background color to the top navigation */
 .topnav {
   background-color: #AC3B61;
   overflow: hidden;
+  font-family: Crimson Text;
+  font-size: 10px; 
 }
 
 /* Add Crimson Text Dictionary */
 
-h1 { font-family: "Crimson Text"; font-size: 25px; 
+h1 { font-family: "Crimson Text"; font-size: 50px; 
 font-style: normal; font-variant: normal; 
-font-weight: 400; line-height: 30px; } 
+font-weight: 400; line-height: 58px; text-align: center; } 
 h3 { font-family: "Crimson Text"; font-size: 20px; 
 font-style: normal; font-variant: normal; 
 font-weight: 700; line-height: 15.4px; } 
-p { font-family: "Crimson Text"; font-size: 18px; 
+p { font-family: "Crimson Text"; font-size: 20px; 
 font-style: normal; font-variant: normal; 
-font-weight: 400; line-height: 14px; } 
+font-weight: 400; color: #123C69; line-height: 25px; } 
 blockquote { font-family: "Crimson Text"; 
 font-size: 21px; font-style: normal; 
 font-variant: normal; font-weight: 400; 
