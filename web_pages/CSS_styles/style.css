@@ -58,7 +58,7 @@ font-weight: 400; line-height: 18.5714px; }
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #123C69;
-  color: black;
+  color: white;
 }
 
 /* Add a color to the active/current link */
