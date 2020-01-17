@@ -11,6 +11,14 @@ p {
   text-align: justify;
 }
 
+img {
+
+  width:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Add a background color to the top navigation */
 .topnav {
   background-color: #AC3B61;
@@ -57,11 +65,18 @@ font-weight: 400; line-height: 18.5714px; }
   color: white;
 }
 
+
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #EDC7B7;
   color: white;
 }
+
+
+
+
+
+
 
 /* The side navigation menu 
 .sidenav {
