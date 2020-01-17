@@ -30,8 +30,10 @@ img {
 /* Add Crimson Text Dictionary */
 
 h1 { font-family: "Crimson Text"; font-size: 50px; 
-font-style: normal; font-variant: normal; 
-font-weight: 400; line-height: 58px; text-align: center; color: #123C69; } 
+font-style: normal; font-variant: bold; 
+font-weight: 400; line-height: 58px; text-align: center; color: #123C69; 
+margin-left: 100px;
+margin-right: 100px;} 
 h2 { font-family: "Crimson Text"; font-size: 30px; 
 font-style: normal; font-variant: normal; 
 font-weight: 700; line-height: 15.4px; color: #AC3B61; text-align: center;}
