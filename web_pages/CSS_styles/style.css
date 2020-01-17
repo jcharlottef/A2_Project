@@ -65,6 +65,16 @@ font-weight: 400; line-height: 18.5714px; }
 .topnav a.active {
   background-color: #EDC7B7;
   color: white;
+
+ /*centering titles*/
+.title {
+
+  text-align: center;
+}
+
+
+
+
 }
 
 /* The side navigation menu 
