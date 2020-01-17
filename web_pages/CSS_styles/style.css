@@ -3,19 +3,12 @@ body {
 
 }
 
-h1 {
-  color: #123C69;
-  text-align: center;
-}
-
-h2,h3 {
-  color: #AC3B61;
-  text-align: left;
-}
-
 p {
   color: black;
   font-family: Crimson Text;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: justify;
 }
 
 /* Add a background color to the top navigation */
@@ -30,10 +23,13 @@ p {
 
 h1 { font-family: "Crimson Text"; font-size: 50px; 
 font-style: normal; font-variant: normal; 
-font-weight: 400; line-height: 58px; text-align: center; } 
+font-weight: 400; line-height: 58px; text-align: center; color: #123C69; } 
+h2 { font-family: "Crimson Text"; font-size: 30px; 
+font-style: normal; font-variant: normal; 
+font-weight: 700; line-height: 15.4px; color: #AC3B61; text-align: center;}
 h3 { font-family: "Crimson Text"; font-size: 20px; 
 font-style: normal; font-variant: normal; 
-font-weight: 700; line-height: 15.4px; } 
+font-weight: 700; line-height: 15.4px; text-align: center; color: #AC3B61; } 
 p { font-family: "Crimson Text"; font-size: 20px; 
 font-style: normal; font-variant: normal; 
 font-weight: 400; color: #123C69; line-height: 25px; } 
@@ -65,16 +61,6 @@ font-weight: 400; line-height: 18.5714px; }
 .topnav a.active {
   background-color: #EDC7B7;
   color: white;
-
- /*centering titles*/
-.title {
-
-  text-align: center;
-}
-
-
-
-
 }
 
 /* The side navigation menu 
