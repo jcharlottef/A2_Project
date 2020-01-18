@@ -75,7 +75,8 @@ h2 {
 h3 { 
 	font-family: "Crimson Text"; font-size: 20px; 
 	font-style: normal; font-variant: normal; 
-	font-weight: 700; line-height: 15.4px; text-align: center; color: #AC3B61; 
+	font-weight: 700; line-height: 15.4px; text-align: center; 
+	color: #AC3B61; 
 } 
 p { 
 	font-family: "Crimson Text"; font-size: 20px; 
@@ -113,4 +114,10 @@ pre {
         
 .label {
             font-size: 16px;
+}
+.annotation {
+	font-size: 16px; 
+	text-align: justify;
+	margin-left: 250px; 
+	margin-right: 250px; 
 }
