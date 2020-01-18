@@ -76,11 +76,24 @@ font-weight: 400; line-height: 18.5714px;
 	text-align: center;
 }
 /* CSS for D3 visualization */
+body {
+            font-family: "Crimson Text";
+        }
+        
+.bar {
+            fill: #123C69;
+        }
+        
 .axis {
-		font: 10px sans-serif;
-	}
-.axis path, .axis line {
-fill: none;
-stroke: #000;
-shape-rendering: crispEdges;
-}
+            font-size: 16px;
+        }
+
+.axis path,
+.axis line {
+            fill: none;
+            display: none;
+        }
+        
+.label {
+            font-size: 16px;
+        }
