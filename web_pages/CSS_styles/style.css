@@ -24,37 +24,33 @@
 	background-color: #EDC7B7;
 	color: white;
 }
-
-.column	{
-	float:left;
-	width: 33.33%
+/* CSS for the About page = 3 columns that float next to 
+each other */
+{
+  box-sizing: border-box;
 }
-
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	height: 150px;
+}
+/* Clear floats after the columns */
 .row:after {
 	content: "";
 	display: table;
-	clear:both;
+	clear: both;
 }
-#bio {
-	padding: 0px;
-	font-family: "Crimson Text"; font-size: 20px; 
-	font-style: normal; font-variant: normal; 
-	font-weight: 400; color: #123C69; line-height: 25px; margin-left: 250px; 
-	margin-right: 0px; text-align: justify; 
-}
-
-
 .twitter-tweet {
 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 /* Add a background to the body of the website */
 body {
 	background-color: #EEE2DC;
-
+	font-family: "Crimson Text";
 }
 /* CSS for the image */
 img {
@@ -65,63 +61,56 @@ img {
 }
 /* Add Crimson Text Dictionary */
 h1 { 
-font-family: "Crimson Text"; font-size: 50px; 
-font-style: normal; font-variant: bold; 
-font-weight: 400; line-height: 58px; text-align: center; color: #123C69; 
-margin-left: 100px;
-margin-right: 100px;
+	font-family: "Crimson Text"; font-size: 50px; 
+	font-style: normal; font-variant: bold; 
+	font-weight: 400; line-height: 58px; text-align: center; color: #123C69; 
+	margin-left: 100px;
+	margin-right: 100px;
 } 
 h2 { 
-font-family: "Crimson Text"; font-size: 30px; 
-font-style: normal; font-variant: normal; 
-font-weight: 700; line-height: 15.4px; color: #AC3B61; text-align: center;
+	font-family: "Crimson Text"; font-size: 30px; 
+	font-style: normal; font-variant: normal; 
+	font-weight: 700; line-height: 15.4px; color: #AC3B61; text-align: center;
 }
 h3 { 
-font-family: "Crimson Text"; font-size: 20px; 
-font-style: normal; font-variant: normal; 
-font-weight: 700; line-height: 15.4px; text-align: center; color: #AC3B61; 
+	font-family: "Crimson Text"; font-size: 20px; 
+	font-style: normal; font-variant: normal; 
+	font-weight: 700; line-height: 15.4px; text-align: center; color: #AC3B61; 
 } 
 p { 
-font-family: "Crimson Text"; font-size: 20px; 
-font-style: normal; font-variant: normal; 
-font-weight: 400; color: #123C69; line-height: 25px; margin-left: 250px; 
-margin-right: 250px; text-align: justify; 
+	font-family: "Crimson Text"; font-size: 20px; 
+	font-style: normal; font-variant: normal; 
+	font-weight: 400; color: #123C69; line-height: 25px; margin-left: 250px; 
+	margin-right: 250px; text-align: justify; 
 } 
 blockquote { 
-font-family: "Crimson Text"; 
-font-size: 21px; font-style: normal; 
-font-variant: normal; font-weight: 400; 
-line-height: 30px; 
+	font-family: "Crimson Text"; 
+	font-size: 21px; font-style: normal; 
+	font-variant: normal; font-weight: 400; 
+	line-height: 30px; 
 } 
 pre { 
-font-family: "Crimson Text"; font-size: 13px; 
-font-style: normal; font-variant: normal; 
-font-weight: 400; line-height: 18.5714px; 
+	font-family: "Crimson Text"; font-size: 13px; 
+	font-style: normal; font-variant: normal; 
+	font-weight: 400; line-height: 18.5714px; 
 }
 /* Text align center all of the charts */
 .chart {
 	text-align: center;
 }
-<<<<<<< HEAD
 /* CSS for D3 visualization */
-body {
-            font-family: "Crimson Text";
-        }
-        
 .bar {
             fill: #123C69;
-        }
-        
+}     
 .axis {
             font-size: 16px;
-        }
-
+}
 .axis path,
 .axis line {
             fill: none;
             display: none;
-        }
+}
         
 .label {
             font-size: 16px;
-        }
+}
