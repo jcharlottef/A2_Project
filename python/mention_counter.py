@@ -24,8 +24,11 @@ for row in reader:
 
 linecount = 29943
 
+# puts mentions into percent format
 percent_mention =  (mention / linecount) * 100
 
+
+#prints number and percent of mentions
 print(word) 
 print(" is mentioned in ")
 print(percent_mention) 

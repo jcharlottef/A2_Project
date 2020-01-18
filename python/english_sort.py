@@ -1,4 +1,6 @@
+
 #!/usr/bin/env python3
+#this script filters out only english lanauge tweets
 import csv
 import sys
 
@@ -14,7 +16,7 @@ writer.writeheader()
 
 # loop through the rows in the original csv
 for row in reader:
-	# filter rows
+	# filter rows by english langauge
     if row['tweet_language'] == 'en':
     	# write rows that match above filter
         writer.writerow(row)

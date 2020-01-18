@@ -2,6 +2,10 @@
 import csv
 import sys
 import pandas as pd
+
+#This script makes a list of unique User ID adn outputs it to a new file
+
+
 # define columns to keep
 include_columns = ['userid', 'account_creation_date' , 'follower_count' , 'following_count', 'account_language']
 # load the data into pandas
