@@ -13,9 +13,6 @@
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	position: fixed; /* Make it stick/fixed */
-  	width: 100%; /* Full width */
-  	transition: top 0.3s; /* Transition effect when sliding down (and up
 }
 /* Change the color of links on hover */
 .topnav a:hover {
