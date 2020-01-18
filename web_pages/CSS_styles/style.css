@@ -1,138 +1,86 @@
-body {
-  background-color: #EEE2DC;
-
-}
-
-p {
-  color: black;
-  font-family: Crimson Text;
-  margin-left: 250px;
-  margin-right: 250px;
-  text-align: justify;
-}
-
-img {
-
-  width:100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Add a background color to the top navigation */
 .topnav {
-  background-color: #AC3B61;
-  overflow: hidden;
-  font-family: Crimson Text;
-  font-size: 10px; 
+	background-color: #AC3B61;
+	overflow: hidden;
+	font-family: Crimson Text;
+	font-size: 10px; 
 }
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #123C69;
+	color: white;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #EDC7B7;
+	color: white;
+}
+/* Add a background to the body of the website */
+body {
+	background-color: #EEE2DC;
 
+}
+/* CSS for the image */
+img {
+	width:100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 /* Add Crimson Text Dictionary */
-
-h1 { font-family: "Crimson Text"; font-size: 50px; 
+h1 { 
+font-family: "Crimson Text"; font-size: 50px; 
 font-style: normal; font-variant: bold; 
 font-weight: 400; line-height: 58px; text-align: center; color: #123C69; 
 margin-left: 100px;
-margin-right: 100px;} 
-h2 { font-family: "Crimson Text"; font-size: 30px; 
+margin-right: 100px;
+} 
+h2 { 
+font-family: "Crimson Text"; font-size: 30px; 
 font-style: normal; font-variant: normal; 
-font-weight: 700; line-height: 15.4px; color: #AC3B61; text-align: center;}
-h3 { font-family: "Crimson Text"; font-size: 20px; 
+font-weight: 700; line-height: 15.4px; color: #AC3B61; text-align: center;
+}
+h3 { 
+font-family: "Crimson Text"; font-size: 20px; 
 font-style: normal; font-variant: normal; 
-font-weight: 700; line-height: 15.4px; text-align: center; color: #AC3B61; } 
-p { font-family: "Crimson Text"; font-size: 20px; 
+font-weight: 700; line-height: 15.4px; text-align: center; color: #AC3B61; 
+} 
+p { 
+font-family: "Crimson Text"; font-size: 20px; 
 font-style: normal; font-variant: normal; 
-font-weight: 400; color: #123C69; line-height: 25px; } 
-blockquote { font-family: "Crimson Text"; 
+font-weight: 400; color: #123C69; line-height: 25px; margin-left: 250px; 
+margin-right: 250px; text-align: justify; 
+} 
+blockquote { 
+font-family: "Crimson Text"; 
 font-size: 21px; font-style: normal; 
 font-variant: normal; font-weight: 400; 
-line-height: 30px; } 
-pre { font-family: "Crimson Text"; font-size: 13px; 
+line-height: 30px; 
+} 
+pre { 
+font-family: "Crimson Text"; font-size: 13px; 
 font-style: normal; font-variant: normal; 
-font-weight: 400; line-height: 18.5714px; }
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+font-weight: 400; line-height: 18.5714px; 
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #123C69;
-  color: white;
-}
-
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #EDC7B7;
-  color: white;
-}
-
 /* Text align center all of the charts */
 .chart {
-  text-align: center;
+	text-align: center;
 }
-
-
-
-
-
-
-/* The side navigation menu 
-.sidenav {
-  height: 100%; /* 100% Full-height 
-  width: 0; /* 0 width - change this with JavaScript 
-  position: fixed; /* Stay in place 
-  z-index: 1; /* Stay on top
-  top: 0;
-  left: 0;
-  background-color: #111; /* Black
-  overflow-x: hidden; /* Disable horizontal scroll 
-  padding-top: 60px; /* Place content 60px from the top 
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav 
-} */
-
-/* The navigation menu links for 
-side navigation which we haven't figured out yet
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+/* CSS for D3 visualization */
+.axis {
+		font: 10px sans-serif;
+	}
+.axis path, .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
 }
-
-/* When you mouse over the navigation links, change their color 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation 
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size)
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-*/
-
