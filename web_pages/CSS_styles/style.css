@@ -41,6 +41,12 @@ each other */
 	display: table;
 	clear: both;
 }
+.twitter-tweet {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 /* Add a background to the body of the website */
 body {
 	background-color: #EEE2DC;
