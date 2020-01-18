@@ -42,12 +42,7 @@
 	font-weight: 400; color: #123C69; line-height: 25px; margin-left: 250px; 
 	margin-right: 0px; text-align: justify; 
 }
-.b {
-    border-top: 60px solid transparent;
-    border-bottom: 60px solid transparent;
-    border-left: 60px solid black;
-    width: 0;
-    height: 0;
+
 
 .twitter-tweet {
 
