@@ -35,6 +35,9 @@
 	display: table;
 	clear:both;
 }
+.bio {
+	float:center;
+}
 
 
 /* Add a background to the body of the website */
