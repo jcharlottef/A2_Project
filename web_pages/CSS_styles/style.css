@@ -24,6 +24,19 @@
 	background-color: #EDC7B7;
 	color: white;
 }
+
+.column	{
+	float:left;
+	width: 33.33%
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+
+
 /* Add a background to the body of the website */
 body {
 	background-color: #EEE2DC;
@@ -74,13 +87,4 @@ font-weight: 400; line-height: 18.5714px;
 /* Text align center all of the charts */
 .chart {
 	text-align: center;
-}
-/* CSS for D3 visualization */
-.axis {
-		font: 10px sans-serif;
-	}
-.axis path, .axis line {
-fill: none;
-stroke: #000;
-shape-rendering: crispEdges;
 }
