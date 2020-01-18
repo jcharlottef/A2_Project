@@ -24,6 +24,22 @@
 	background-color: #EDC7B7;
 	color: white;
 }
+
+.column	{
+	float:left;
+	width: 33.33%
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+.bio {
+	float:center;
+}
+
+
 /* Add a background to the body of the website */
 body {
 	background-color: #EEE2DC;
@@ -75,6 +91,7 @@ font-weight: 400; line-height: 18.5714px;
 .chart {
 	text-align: center;
 }
+<<<<<<< HEAD
 /* CSS for D3 visualization */
 body {
             font-family: "Crimson Text";
@@ -97,3 +114,5 @@ body {
 .label {
             font-size: 16px;
         }
+=======
+>>>>>>> a807a4b142bb03f559b2927afe26bc7b7dbbd873
