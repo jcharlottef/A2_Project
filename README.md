@@ -1,6 +1,8 @@
 # A2_Project
 Code4policy/2020 final project
 
+To see our finshed product, click here: https://jcharlottef.github.io/A2_Project/web_pages/HTML/home
+
 This website analyzes the scope and reach of disinformation on Twitter during the 2016 election and currently in 2020. We analyze past banned accounts and their activity in 2016, and monitor the current nature of fake-news propaganda on Twitter by active troll_bots.
 
 For 2016, we used Twitter data publicly available at https://transparency.twitter.com/en/information-operations.html to look at IRA accounts infuencing the political discourse on the social media site. 
@@ -21,3 +23,4 @@ Team Members:
   Jackie Faselt
 
 -------------------------------------------------------------------------------------------
+To see our finished website click here: https://jcharlottef.github.io/A2_Project/web_pages/HTML/home
