@@ -24,29 +24,6 @@
 	background-color: #EDC7B7;
 	color: white;
 }
-/* CSS for the About page = 3 columns that float next to 
-each other */
-{
-  box-sizing: border-box;
-}
-.column {
-	float: left;
-	width: 25%;
-	padding: 10px;
-	height: 150px;
-}
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.twitter-tweet {
-
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 /* Add a background to the body of the website */
 body {
 	background-color: #EEE2DC;
@@ -59,7 +36,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* Add Crimson Text Dictionary */
+/* Add Crimson Text Dictionary and set copy styles*/
 h1 { 
 	font-family: "Crimson Text"; font-size: 50px; 
 	font-style: normal; font-variant: bold; 
@@ -110,14 +87,42 @@ pre {
 .axis line {
             fill: none;
             display: none;
-}
-        
+}       
 .label {
             font-size: 16px;
 }
+/* Styles for the annotation for the bottom of the chart */
 .annotation {
 	font-size: 16px; 
 	text-align: justify;
 	margin-left: 250px; 
 	margin-right: 250px; 
 }
+/* Styles for the tweets embed */
+.tweet {
+	margin-left: 375px; 
+	margin-right: 375px; 
+}
+/* We didn't end up using this: CSS for the About page = 3 columns that float next to 
+each other 
+{
+  box-sizing: border-box;
+}
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	height: 150px;
+}
+/* Clear floats after the columns 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.twitter-tweet {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}*/
